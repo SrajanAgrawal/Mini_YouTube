@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <title>Document</title>
+    <style>
+        #videos{
+            margin-top: 30px;
+        }
+        iframe{
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <br>
+        <h1>Mini YouTube</h1>
+        <h5>Your Own Searching Space</h5>
+        <form action="" id="form">  
+            <div class="form-group">
+                <input type="text" class="form-control" id="search" placeholder="Type Keywords.. Ex (fashion,technology,coding)">
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" class="btn btn-danger" value="SEARCH">
+            </div>
+
+        </form>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="videos">
+
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+</body>
+<script src="https://apis.google.com/js/api.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="index.js"></script>
+</html>
